@@ -1,0 +1,17 @@
+name: hawkai_diet_generation
+version: 1.0.0
+description: "HawkAI Diet Generation Environment. The agent acts as an AI Dietitian, reading user health constraints, querying the local Indian food nutrition database, and constructing a diet plan (breakfast, lunch, dinner)."
+type: environment
+action_space: schema.Action
+observation_space: schema.Observation
+reward: schema.Reward
+tasks:
+  - id: easy
+    difficulty: easy
+    description: "Generate a basic Tamil Nadu diet using the food DB. The diet must stay under 2000 total kcal."
+  - id: medium
+    difficulty: medium
+    description: "Generate a specialized diet for a diabetic patient (no sugar/desserts) with >50g of protein total."
+  - id: hard
+    difficulty: hard
+    description: "Fix a provided bloated non-vegetarian diet draft: Make it strictly vegetarian, >75g protein, and strictly under 1500 kcal."

@@ -1,0 +1,6 @@
+{
+  "appId": "com.hawkai.app",
+  "appName": "HawkAI",
+  "webDir": "fitpulse/dist",
+  "bundledWebRuntime": false
+}

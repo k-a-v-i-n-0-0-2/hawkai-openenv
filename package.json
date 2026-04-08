@@ -1,0 +1,21 @@
+{
+  "name": "hawkai-monorepo",
+  "private": true,
+  "workspaces": [
+    "fitpulse",
+    "diet-chart-backend"
+  ],
+  "scripts": {
+    "frontend:dev": "npm run dev --workspace=fitpulse",
+    "frontend:build": "npm run build --workspace=fitpulse",
+    "backend:dev": "python diet-chart-backend/app.py",
+    "build": "npm run build --workspace=fitpulse",
+    "cap:sync": "npx cap sync",
+    "postinstall": "npm run build"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  }
+}

@@ -1,0 +1,143 @@
+Nutritional Landscape of Tamil Nadu: A Comprehensive Analysis of Traditional and Modern Dietary Patterns
+The nutritional cartography of Tamil Nadu is a sophisticated tapestry woven from millennia of agrarian expertise, religious dietary prescriptions, and regional climatic adaptations. As the southernmost sentinel of the Indian subcontinent, Tamil Nadu’s dietary framework has evolved from the ancient Sangam period, where food was classified not merely as fuel but as a fundamental pillar of health and spiritual equilibrium.1 This report provides an exhaustive investigation into the macronutrient and micronutrient profiles of Tamil Nadu’s traditional and modern food items, grounded in the scientific rigor of the Indian Food Composition Tables (IFCT) and the National Institute of Nutrition (NIN).3 By analyzing the biochemical synergy of fermented batters, the ancestral resurgence of millets, and the regional specificities of Chettinad, Kongu, and coastal cuisines, this analysis constructs a structured nutritional dataset of over 80 items tailored for diverse health objectives including protein maximization, weight management, and metabolic health.
+The Scientific Foundation of Tamil Dietetics: IFCT and NIN Methodology
+The assessment of Tamil Nadu's nutritional profile relies on the landmark "Indian Food Composition Tables 2017," a document that represents the most ambitious nutritional mapping in Indian history.3 Compiled by the National Institute of Nutrition (NIN), the IFCT 2017 utilized a "key foods approach" to prioritize 528 items that together contribute to 75% of the national intake of energy, fat, and protein.6 In Tamil Nadu, the data reflects composite samples gathered from the southern region, ensuring that the values for staples like parboiled rice, local lentils, and specific greens represent the national variability while catering to regional consumption patterns.3
+The methodology of the IFCT 2017 is particularly relevant for Tamil Nadu as it introduces unprecedented data on bioactive substances, including vitamin  in plant foods, oligosaccharides, phytosterols, and individual polyphenols.3 For a state where plant-based diets are prevalent, the documentation of amino acid and fatty acid profiles allows for a nuanced understanding of how traditional combinations—such as the 3:1 ratio of cereals to pulses in dishes like Idli and Pongal—achieve complete protein status.9
+Regional Culinary Archetypes and Their Nutritional Implications
+Tamil Nadu’s cuisine is far from monolithic; it is a collection of regional sub-styles defined by ancient dynastic boundaries and geographic constraints.
+The Chettinad Region: Protein and Spice Density
+The Chettinad region, centered in Karaikudi, represents perhaps the most internationally recognized facet of Tamil cuisine.11 Traditionally the home of the Nattukottai Chettiars, a merchant community, the cuisine reflects their history of global trade, particularly with Southeast Asia.12 Chettinad food is characterized by its "fiery" nature, achieved through the liberal use of black pepper ( ), star anise, and stone flower ().11
+Unlike the more moderate vegetarian traditions of the northern plains, Chettinad cuisine is heavily protein-centric, featuring fowl, fish, and meats like mutton and quail.13 The nutritional complexity of Chettinad gravies is enhanced by the use of sun-dried vegetables and meats, a preservation technique born of the region's arid climate.12 These sun-dried components, such as Manathakkali (black nightshade) and Sundakkai (turkey berry), are concentrated sources of fiber and antioxidants.12
+Kongunadu: Agrarian Simplicity and Healthy Lipids
+The western Kongunadu region, covering Coimbatore, Erode, and Salem, is historically an inland, rain-starved territory.15 This environmental constraint led to a diet dominated by hardy crops: millets like Kambu (Pearl Millet) and Cholam (Sorghum), and an extensive use of groundnuts and sesame seeds.15 Kongu cuisine is unique in its avoidance of heavy marination, preferring the use of freshly roasted spices and dry coconut.15 The liberal use of Thengai Paal (coconut milk) provides medium-chain triglycerides (MCTs), which are metabolized differently than long-chain fats, offering a rapid energy source for the region's labor-intensive agricultural workforce.13
+Coastal and Pandiyan Cuisines: Marine Nutrition and Street Food Evolution
+The coastal stretches, particularly Chennai and the southern districts of Madurai and Tirunelveli, focus on marine biodiversity.17 Fish like Vanjaram (Seer Fish) and Nethili (Anchovy) are staples, providing essential Omega-3 fatty acids and iodine.17 Madurai, often called the "Athens of the East," serves as a melting pot where street food culture has flourished, giving rise to calorie-dense items like Jigarthanda and Kari Dosai.11 These items, while culturally significant, represent the modern transition toward higher sugar and saturated fat intake.21
+The Biochemical Synergy of Fermented Foods
+A foundational element of the Tamil diet is the use of fermented rice and lentil batters. The fermentation of Idli and Dosa is not merely a culinary technique but a complex biochemical transformation driven by a heterogeneous microbial community.23
+Microbial Succession and Nutrient Bioavailability
+Research utilizing 16S rRNA amplicon sequencing reveals that the fermentation is primarily driven by Lactic Acid Bacteria (LAB), including the genera Weissella, Lactococcus, and Leuconostoc.23 Over a 12 to 15-hour period, these bacteria metabolize complex carbohydrates and reduce the levels of anti-nutritional factors.23 Specifically, the fermentation process has been shown to reduce phytic acid and tannin content by up to 69% and 78%, respectively.25 This reduction is critical as these compounds inhibit the absorption of iron and calcium, minerals which are otherwise abundant in the black gram ( ) used in the batter.24
+Furthermore, the microbial synthesis during fermentation increases the levels of B-complex vitamins, particularly thiamine, riboflavin, and folic acid.23 The resulting products, especially the steamed Idli, are highly digestible and possess a low Glycemic Index (GI), making them suitable for diabetic patients and those with sensitive gastrointestinal tracts.27
+The Millet Renaissance: Nutritional Profiles of "Nutri-Cereals"
+Tamil Nadu is currently witnessing a significant return to its ancestral staples—millets—now re-branded as "Nutri-cereals".29 These small-seeded grains were once the primary source of nutrition in the Sangam era before the "Green Revolution" prioritized polished rice.1
+Finger Millet (Ragi/Kezhvaragu)
+Ragi is arguably the most nutritionally significant millet in the Tamil repertoire, often termed the "Calcium King".31 It contains 300–350 mg of calcium per 100g, which is approximately ten times that of rice or wheat.30 This makes ragi an indispensable tool for preventing osteoporosis and supporting bone development in growing children.29
+Pearl Millet (Kambu/Bajra)
+Kambu is highly adaptive to the arid conditions of Tamil Nadu and is a primary source of iron and fiber.14 Traditional preparations like Kambu Koozh (fermented pearl millet porridge) are prized for their cooling properties during the harsh Tamil summer.32 Research indicates that kambu provides up to 8 times more iron than polished rice, making it a critical dietary intervention for iron-deficiency anemia.31
+Table 1: Raw Nutritional Profile of Tamil Millets vs. Traditional Grains (per 100g)
+
+Structured Nutritional Dataset of 80+ Tamil Nadu Food Items
+The following tables categorize Tamil food items based on their primary nutritional function and health goals, utilizing data sourced from NIN/IFCT and the INDB.5
+I. High Protein Dataset
+This category focuses on legumes, indigenous meats, and dairy, essential for muscle repair and enzymatic functions.2
+
+II. Normal / Balanced Diet Dataset
+These items constitute the typical Tamil Sappadu (meal), providing a moderate balance of energy and protective nutrients.2
+
+III. Weight Loss / Diabetic Management Dataset
+Focuses on items with high volume, high fiber, and low glycemic load.29
+
+IV. Weight Gain Dataset
+Calorie-dense foods featuring high levels of complex carbohydrates and healthy lipids.62
+
+V. Cheat Meals / Indulgence Dataset
+High-calorie snacks and traditional sweets, often deep-fried or syrup-soaked.57
+
+Therapeutic Potential of Tamil Nadu's "Keerai" (Leafy Greens)
+In the Tamil tradition, "Keerai" (leafy greens) are regarded as Kayakalpa—foods that rejuvenate the body and extend longevity.33 The region boasts a staggering variety of edible greens, each with specific therapeutic targets.
+Murungai Keerai (Moringa oleifera)
+The drumstick tree's leaves are a nutritional titan, containing significant levels of vitamins A, C, and E, as well as minerals like iron and potassium.5 A 1% moringa formulation in soups has been shown to contain 16.3% protein and 9.8% fiber, making it a potent anti-inflammatory and antioxidant tool.5 In traditional Tamil households, moringa leaves are often fried with lentils and coconut to enhance the absorption of fat-soluble vitamins.14
+Vallarai Keerai (Centella asiatica/Gotu Kola)
+Vallarai is historically linked to cognitive enhancement.14 Research suggests its bioactive compounds improve memory, reduce oxidative stress in neural tissues, and promote skin health.14 It is commonly prepared as a Thuvaiyal (thick chutney) or added to soups.14
+Thuthuvalai (Solanum trilobatum)
+This medicinal plant is characterized by thorny leaves and is utilized extensively for respiratory health.72 Standardized Adai (lentil crepes) incorporating thuthuvalai have been found to maintain high protein levels while providing antibacterial and anti-asthmatic benefits.72 Its inclusion in the diet is a prime example of the "Food as Medicine" philosophy prevalent in Siddha therapy.33
+Urban-Rural Dietary Dichotomy and Nutrition Transition
+The rapid urbanization of Tamil Nadu, particularly in corridors like Chennai-Coimbatore, has led to a significant "nutrition transition".22 This transition is marked by a shift away from low-energy-density rural diets toward high-energy-density urban diets.22
+The Sibling-Pair Analysis of Migration
+Studies comparing rural dwellers with their urban-migrant siblings show that migration is associated with a 10–15% increase in total energy intake.22 While urban migrants often report a 80% higher intake of fruits and vegetables (a positive change), this is frequently offset by a 35% increase in sugar and fat intake.22 The prevalence of obesity in urban Tamil Nadu—reaching over 34% among females in some cohorts—is closely linked to the increased consumption of refined cereals and "Westernized" snack items.75
+The "Great Equalization" Hypothesis
+Paradoxically, while urbanites face a "dual burden" of malnutrition (overweight coexisting with micronutrient deficiencies), rural areas are increasingly witnessing an "equalization" of risk factors.73 The availability of refined oils and polished rice in rural PDS (Public Distribution System) outlets has led to a decline in millet consumption even in agrarian belts.15 Consequently, metabolic disorders like hypertension and Type 2 Diabetes are no longer exclusive to urban centers but have emerged as major rural public health challenges.73
+Bioactive Compounds and Micronutrient Resilience
+The IFCT 2017 highlights the resilience of traditional Tamil diets in providing trace elements. For instance, Paruppu Keerai provides  mg of potassium and  mg of magnesium per g, essential for maintaining electrolyte balance in the humid southern climate.56 The use of sesame oil (Nallennai) in Tamil cooking provides high levels of monounsaturated fatty acids and sesamin, an antioxidant that has been shown to lower cholesterol levels.2
+Additionally, the preservation methods common in Tamil Nadu, such as the preparation of Vathal (sun-dried vegetables) and Karuvadu (sun-dried fish), significantly increase the nutrient density of the items per unit weight.2 For example, Iraal Karuvadu (dry shrimp) can contain up to g of protein per g, making it one of the most protein-dense items in the coastal repertoire, albeit with high sodium levels that require careful portion control.44
+Conclusion: Synthesizing Traditional Wisdom with Modern Clinical Standards
+The traditional Tamil Nadu diet, when aligned with the nutritional benchmarks of the NIN and IFCT, reveals a robust system of metabolic defense.3 The synergistic combination of fermented batters, mineral-rich millets, and medicinal greens provides a comprehensive solution to modern nutritional challenges.26
+For weight management and metabolic health, a return to "Nutri-cereals" like Ragi and Thinai is essential to reduce the glycemic load of the modern diet.29 Simultaneously, the protein-dense traditions of Chettinad and the coastal regions offer viable pathways for muscle maintenance and recovery, provided that the density of added fats and sodium is monitored.12 As Tamil Nadu navigates its ongoing nutrition transition, the preservation and scientific validation of these ancestral dietary archetypes will be paramount in curbing the epidemic of non-communicable diseases while maintaining the region's rich culinary legacy.73
+Works cited
+Tamil Nadu Cuisine: A Culinary Journey | PDF - Scribd, accessed March 11, 2026, https://www.scribd.com/document/654876316/243637521-Tamilnadu-Cuisine
+Tamil cuisine - Wikipedia, accessed March 11, 2026, https://en.wikipedia.org/wiki/Tamil_cuisine
+Indian Food Composition Tables, 2017 - National Institute of Nutrition, accessed March 11, 2026, https://www.nin.res.in/ebooks/IFCT2017.pdf
+(PDF) Indian Food Composition Tables - Academia.edu, accessed March 11, 2026, https://www.academia.edu/31170922/Indian_Food_Composition_Tables
+(PDF) Indian food Composition Tables - ResearchGate, accessed March 11, 2026, https://www.researchgate.net/publication/313226719_Indian_food_Composition_Tables
+Development of an Indian Food Composition Database - PMC, accessed March 11, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/
+Indian Nutrient Databank (INDB) - Anuvaad Solutions, accessed March 11, 2026, https://www.anuvaad.org.in/indian-nutrient-databank/
+Indian Food Composition Tables - ResearchGate, accessed March 11, 2026, https://www.researchgate.net/profile/Thingnganing-Longvah/publication/313226719_Indian_food_Composition_Tables/links/589328db92851c5457486b19/Indian-food-Composition-Tables.pdf
+South Indian Food Calorie Chart PDF Hunter - Scribd, accessed March 11, 2026, https://www.scribd.com/document/522798178/South-Indian-Food-Calorie-Chart-PDF-Hunter-1
+'Old Is Gold': How Traditional Indian Dietary Practices Can Support Pediatric Diabetes Management - PMC, accessed March 11, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC8707693/
+(DOC) TAMIL NADU and CHETTINAD CUISINE - Academia.edu, accessed March 11, 2026, https://www.academia.edu/38223670/TAMIL_NADU_and_CHETTINAD_CUISINE
+Chettinad Cuisine: Exploring the Flavors of Tamil Nadu - Hi DMC, accessed March 11, 2026, https://www.hidmc.com/blog-posts/chettinad-cuisine-exploring-the-flavors-of-tamil-nadu
+Tamil Nadu Cuisine | PDF | Chutney | Cooking - Scribd, accessed March 11, 2026, https://www.scribd.com/document/844823102/494599841-Tamil-Nadu-Cuisine
+Traditional Foods and Its Health Benefits of Tamil Nadu | PDF - Scribd, accessed March 11, 2026, https://www.scribd.com/document/819922968/Traditional-Foods-and-Its-Health-Benefits-of-Tamil-Nadu
+Primal Flavours from Kongunadu - Red Coral Travel Experiences, accessed March 11, 2026, https://www.redcoral.in/primal-flavours-from-kongunadu/
+Tamil Nadu Cuisine | PDF | Curry - Scribd, accessed March 11, 2026, https://www.scribd.com/document/855362511/Tamil-Nadu-Cuisine
+Seafood Guide: Nutrition, Types & Benefits - HalalBox, accessed March 11, 2026, https://www.halalbox.in/seafood-nutrition-types-health-guide-bg
+Seer Fish / Vanjaram(సీర్ ఫిష్ / వంజరం) – Fresh 4 Buy, accessed March 11, 2026, https://fresh4buy.com/product/seer-fish/
+Buy Crab, Vanjaram & Medium Prawns Online - Bison Mart, accessed March 11, 2026, https://bisonmart.in/product/crab-vanjaram-prawns-medium/
+Jigarthanda Nutrition - SnapCalorie, accessed March 11, 2026, https://www.snapcalorie.com/nutrition/jigarthanda_nutrition.html
+madurai jil jil jigarthanda - Nutrition Information and Health Benefits | Bon Happetee, accessed March 11, 2026, https://www.bonhappetee.com/search/foods/jigarthanda-drink-1e3571fb-6a69-441b-a1c5-4a40177a963e
+Dietary Intake and Rural-Urban Migration in India: A Cross-Sectional Study | PLOS One, accessed March 11, 2026, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0014822
+Diversity and Succession of Microbiota during Fermentation of the Traditional Indian Food Idli - PMC, accessed March 11, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC6581174/
+Bacterial diversity of traditional fermented food, Idli by high thorough-put sequencing - PMC, accessed March 11, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC9525534/
+Traditional Indian breakfast (Idli and Dosa) with enhanced nutritional content using millets - Ovid, accessed March 11, 2026, https://www.ovid.com/journals/nutd/pdf/10.1111/1747-0080.12020~traditional-indian-breakfast-idlianddosa-with-enhanced
+asian journal of science and technology - RESEARCH ARTICLE, accessed March 11, 2026, https://www.journalajst.com/sites/default/files/issues-pdf/1012.pdf
+Idli | PDF | Indian Cuisine | Nutrients - Scribd, accessed March 11, 2026, https://www.scribd.com/document/809347322/idli
+Sambar: A Nutritious South Indian Delight with a Rich History - Restaurant India, accessed March 11, 2026, https://www.restaurantindia.in/article/sambar-a-nutritious-south-indian-delight-with-a-rich-history.12436
+Millets-The Nutri-Cereals of India, accessed March 11, 2026, https://eatrightindia.gov.in/millets2023/assets/documents/Millets%20-%20Nutritious%20Cereal%20of%20India.pdf
+The nutrition and therapeutic potential of millets: an updated narrative review - PMC, accessed March 11, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC11091339/
+Millets: Calories, Nutrition and Health Benefits - NutriScan App, accessed March 11, 2026, https://nutriscan.app/calories-nutrition/millets
+Traditional Millets of Tamil Nadu | Health Benefits & Nutrition Guide - VeCura Wellness, accessed March 11, 2026, https://www.vecurawellness.com/blog/forgotten-traditional-millets-of-tamil-nadu-nutritional-benefits/
+From Farm to Table: Rediscovering Traditional Tamil Nadu Recipes for Health and Flavor, accessed March 11, 2026, https://vaksanafarms.in/from-farm-to-table-rediscovering-traditional-tamil-nadu-recipes-for-health-and-flavor/
+Millets benefits and nutritional information - Shree Anna Abhiyan, accessed March 11, 2026, https://milletsodisha.com/millets-benefits-and-nutritional-information
+CALORIE VALUE OF FOOD ITEMS (Figures given in this chart are based on 100 gm portions), accessed March 11, 2026, https://jtmadhavan.wordpress.com/wp-content/uploads/2009/09/the-calorie-chart-of-indian-food.pdf
+Indigenous Foods of India: A Comprehensive Narrative Review of Nutritive Values, Antinutrient Content and Mineral Bioavailability of Traditional Foods Consumed by Indigenous Communities of India - PMC, accessed March 11, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC7612755/
+2600 Calorie Indian Weight Gain Diet Plan - Healthkart, accessed March 11, 2026, https://www.healthkart.com/connect/2600-calorie-indian-weight-gain-diet-plan/bid-6735
+26 Sundal Varieties for Navratri | PDF | Chickpea | Nutrition - Scribd, accessed March 11, 2026, https://www.scribd.com/document/446782532/26-Navratri-Sundal-Varieties-to-Surprise-Your-Family
+South Indian Food Calorie Chart, accessed March 11, 2026, https://southindianfoods.in/south_indian_food_caloriechart.html
+Chicken Chettinad - a chicken dish from Tamil Nadu - Swati's Kitchen, accessed March 11, 2026, https://swatisani.net/kitchen/recipe/chicken-chettinad-a-chicken-dish-from-tamil-nadu/
+Indian Meals Calories Protein Chart | PDF | Chickpea | Bean - Scribd, accessed March 11, 2026, https://www.scribd.com/document/938607448/Indian-Meals-Calories-Protein-Chart
+Nutritive Value of Indian Foods New | PDF | French Fries - Scribd, accessed March 11, 2026, https://www.scribd.com/document/797234896/Nutritive-value-of-Indian-foods-new
+Comprehensive Guide to Indian Food Calories and Nutrition - always on my mind, accessed March 11, 2026, https://alwaysonmymind.blog/2025/09/25/comprehensive-guide-to-indian-food-calories-and-nutrition/
+இறால் கருவாடு Dry Shrimp (100g) - Pugazhvi Sea Food, accessed March 11, 2026, https://seafood.pugazhvi.com/product/dry-shrimp/
+Nutritional Data of Common Indian Foods | PDF | Food Energy | Nutrients - Scribd, accessed March 11, 2026, https://www.scribd.com/document/732803154/Compendium-of-Nutritional-Data-of-Common-Indian-Food
+Calories in Sambar - Nutritional Values & Healthy Benefits – RiteBite ..., accessed March 11, 2026, https://maxprotein.in/blogs/calories/calories-in-sambar-health-benefits-nutrition-value
+Rasam Recipe (South Indian Hotel Style) - Swasthi's Recipes, accessed March 11, 2026, https://www.indianhealthyrecipes.com/tomato-rasam-recipe/
+Beetroot Kootu (Stew) recipe - The Magic Saucepan, accessed March 11, 2026, https://themagicsaucepan.com/main-course/kootu/beetroot-kootu
+Keerai Masiyal: Calories, Nutrition and Health Benefits | NutriScan App, accessed March 11, 2026, https://nutriscan.app/calories-nutrition/keerai-masiyal
+Macronutrients level in Commonly Consumed South Indian Breakfast Meals: An Analytical Study - ResearchGate, accessed March 11, 2026, https://www.researchgate.net/publication/371702361_Macronutrients_level_in_Commonly_Consumed_South_Indian_Breakfast_Meals_An_Analytical_Study
+Arai keerai Nutrition - SnapCalorie, accessed March 11, 2026, https://www.snapcalorie.com/nutrition/arai_keerai_nutrition.html
+Pulicha Keerai – Nutrition, Benefits, Cultivation & Recipes - கீரைகள், accessed March 11, 2026, https://keeraigal.com/en/30-pulicha-keerai/
+Recipes Book.pdf, accessed March 11, 2026, https://www.indiascienceandtechnology.gov.in/sites/default/files/Recipes%20Book.pdf
+Thinai Pongal Recipe | Foxtail Millet Pongal Recipe - Subbus Kitchen, accessed March 11, 2026, https://www.subbuskitchen.com/thinai-pongal-recipe-finger-millet/
+Millet Pongal Recipe - Sharmis Passions, accessed March 11, 2026, https://www.sharmispassions.com/millet-pongal/
+Leafy Vegetables - Minerals and Trace - Nutrition Value in ..., accessed March 11, 2026, https://www.medindia.net/calories-in-indian-food/minerals_and_trace/leafy_vegetables/paruppu-keerai.htm
+12 Best South Indian Sweets You Must Try – Desserts & Recipes - Millet Maagic Meal, accessed March 11, 2026, https://www.milletmaagicmeal.in/blogs/blogs/best-south-indian-sweets
+Caloric Values of South Indian Dishes | PDF | Calcium | Vitamin - Scribd, accessed March 11, 2026, https://www.scribd.com/document/874103509/Health-App-Data-7
+Upma Calories: Nutrition Facts, Recipe Insights & Health Benefits - Jd Collections - Justdial, accessed March 11, 2026, https://www.justdial.com/list/upma-calories-nutrition-facts-recipe-health-benefits?wkwebview=1
+Calories in Upma - Nutritional Values & Healthy Benefits - RiteBite Max Protein, accessed March 11, 2026, https://maxprotein.in/blogs/calories/upma
+Top 5 Budget-Friendly Foods to Gain Healthy Weight Quickly with Nutrition Facts - Thinkyou | Dt Himanshu Rai, accessed March 11, 2026, https://thinkyou.in/blogs/healthy-weight-gain
+Diet Chart for Weight Gain - CK Birla Hospital, accessed March 11, 2026, https://www.ckbhospital.com/blogs/diet-chart-for-weight-gain
+High Calorie Foods for Weight Gain – 10 Indian Foods to Gain Weight Easily - PrognoHealth, accessed March 11, 2026, https://www.prognohealth.com/blog/diet-nutrition/high-calorie-foods-for-weight-gain-8211-10-indian-foods-to-gain-weight-easily
+Chicken Biryani: A Complete Nutritional Guide - Ace Blend, accessed March 11, 2026, https://aceblend.com/blogs/daily-vitality/chicken-biryani-calories-complete-nutritional-guide
+Sweet Pongal | How to make Sakkarai Pongal - sangskitchen, accessed March 11, 2026, https://sangskitchen.com/sweet-pongal/
+Sakkarai Pongal Recipe | Sweet Pongal - Sharmi's Kitchen, accessed March 11, 2026, https://www.sharmiskitchen.com/2017/01/sakkarai-pongal-recipe-sweet-pongal/
+South Indian Sweets Recipes, accessed March 11, 2026, https://www.kamalascorner.com/category/sweets/page/13
+20 High Calorie Foods to Gain Weight Naturally - Medanta, accessed March 11, 2026, https://www.medanta.org/patient-education-blog/20-high-calorie-foods-to-gain-weight-naturally
+Haldiram's Murukku: Calories, Nutrition and Health Benefits | NutriScan App, accessed March 11, 2026, https://nutriscan.app/calories-nutrition/haldirams-murukku
+Indian Food Calorie Chart | PDF - Scribd, accessed March 11, 2026, https://www.scribd.com/document/861485260/Indian-Food-Calorie-Chart
+Jigarthanda Recipe, accessed March 11, 2026, https://www.yummytummyaarthi.com/jigarthanda-recipe-jil-jil-jigarthanda/
+(PDF) Exploration of nutrient content of traditional Tamil nadu recipe with solanumtrilobatum, accessed March 11, 2026, https://www.researchgate.net/publication/309474930_Exploration_of_nutrient_content_of_traditional_Tamil_nadu_recipe_with_solanumtrilobatum
+Urban rural differences in diet, physical activity and obesity in India, accessed March 11, 2026, https://d-nb.info/1113811064/34
+Comparison of dietary profile of a rural south Indian population with the current dietary recommendations for prevention of non-communicable diseases (CURES 147) - PMC, accessed March 11, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC5116883/
+Urban rural differences in diet, physical activity and obesity in India: are we witnessing the great Indian equalisation? Results from a cross-sectional STEPS survey - PubMed, accessed March 11, 2026, https://pubmed.ncbi.nlm.nih.gov/27538686/
+Rural and Urban dichotomy in body mass index among children of Tamil Nadu, India, accessed March 11, 2026, https://journalijsra.com/content/rural-and-urban-dichotomy-body-mass-index-among-children-tamil-nadu-india
+Keerai Nutrition: Types and Health Benefits Explained - Kamala's Corner, accessed March 11, 2026, https://www.kamalascorner.com/others/keerai-nutrition.html
+Indian cuisine - Wikipedia, accessed March 11, 2026, https://en.wikipedia.org/wiki/Indian_cuisine

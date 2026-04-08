@@ -1,0 +1,7 @@
+{
+  "name": "HawkAI",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

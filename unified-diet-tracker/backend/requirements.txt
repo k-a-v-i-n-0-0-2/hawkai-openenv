@@ -1,0 +1,11 @@
+flask
+requests
+colorama
+pandas
+python-docx
+flask-sqlalchemy
+psycopg2-binary
+python-dotenv
+gunicorn
+flask-cors
+ollama

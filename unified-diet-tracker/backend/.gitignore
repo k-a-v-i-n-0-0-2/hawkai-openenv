@@ -1,0 +1,6 @@
+FoodData_Central_csv_2025-12-18/
+FINAL FOOD DATASET/
+*.db
+__pycache__/
+*.pyc
+.env

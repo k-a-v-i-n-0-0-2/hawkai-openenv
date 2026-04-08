@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+:root {
+  /* Core Tokens - FitPro (Default) */
+  --bg: #0a0a0a;
+  --card: #1A1B1E;
+  --primary: #FF6B00;
+  --primary-glow: rgba(255, 107, 0, 0.3);
+  --on-primary: #ffffff;
+  --text-main: #ffffff;
+  --text-muted: #9ca3af;
+  --border: rgba(255, 255, 255, 0.05);
+  
+  /* Responsive Typography */
+  --font-h1: clamp(1.75rem, 5vw, 3rem);
+  --font-h2: clamp(1.25rem, 4vw, 2rem);
+  --font-h3: clamp(1.1rem, 3vw, 1.5rem);
+  --font-body: 0.9375rem;
+  
+  /* Transitions */
+  --transition-speed: 300ms;
+}
+
+.theme-light {
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --primary: #0ea5e9;
+  --primary-glow: rgba(14, 165, 233, 0.3);
+  --on-primary: #ffffff;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --border: rgba(0, 0, 0, 0.05);
+}
+
+.theme-dark {
+  --bg: #000000;
+  --card: #111111;
+  --primary: #ffffff;
+  --primary-glow: rgba(255, 255, 255, 0.1);
+  --on-primary: #000000;
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --border: rgba(255, 255, 255, 0.1);
+}
+
+/* Base Overrides */
+body {
+  background-color: var(--bg);
+  color: var(--text-main);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Utilities for Variables */
+@layer utilities {
+  .bg-theme-bg { background-color: var(--bg) !important; }
+  .bg-theme-card { background-color: var(--card) !important; }
+  .bg-theme-primary { background-color: var(--primary) !important; }
+  .text-theme-main { color: var(--text-main) !important; }
+  .text-theme-muted { color: var(--text-muted) !important; }
+  .text-theme-primary { color: var(--primary) !important; }
+  .text-on-primary { color: var(--on-primary) !important; }
+  .border-theme { border-color: var(--border) !important; }
+  .shadow-theme-glow { box-shadow: 0 0 20px var(--primary-glow) !important; }
+  
+  /* Layout Utilities */
+  .page-container {
+    @apply flex-1 w-full max-w-7xl mx-auto px-4 sm:px-10 lg:px-16 pt-6 md:pt-12;
+  }
+  
+  .content-grid {
+    @apply grid grid-cols-1 lg:grid-cols-12 gap-6 md:gap-10 lg:gap-12;
+  }
+  
+  .safe-bottom {
+    @apply pb-32 sm:pb-40 lg:pb-24;
+  }
+}
+
+/* Smooth Transitions */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: var(--transition-speed);
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Heading Typography */
+h1 { font-size: var(--font-h1); font-weight: 900; letter-spacing: -0.02em; }
+h2 { font-size: var(--font-h2); font-weight: 800; }
+h3 { font-size: var(--font-h3); font-weight: 700; }
+
+/* Glassmorphism Classes */
+.glass-card {
+  background: var(--card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+}
+
+@media (min-width: 640px) {
+  .glass-card {
+    border-radius: 32px;
+  }
+}
+
+.glass-nav {
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid var(--border);
+}
+
+/* Animations from previous session */
+@keyframes pulse-soft {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.3s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
