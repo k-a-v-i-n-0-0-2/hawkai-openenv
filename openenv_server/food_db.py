@@ -1,37 +1,44 @@
 import json
 import os
+import sys
 
 # Fallback basic DB
 FOOD_DB = {
-    "F1": {"name": "Idli", "type": "veg", "calories": 39, "protein": 1.2, "sugar": 0, "meal": ["breakfast"]},
-    "F2": {"name": "Dosa", "type": "veg", "calories": 133, "protein": 3.4, "sugar": 0, "meal": ["breakfast", "dinner"]},
-    "F3": {"name": "Chicken Curry", "type": "non-veg", "calories": 243, "protein": 28, "sugar": 1, "meal": ["lunch", "dinner"]},
-    "F4": {"name": "Sambar", "type": "veg", "calories": 110, "protein": 4.5, "sugar": 1, "meal": ["breakfast", "lunch", "dinner"]},
-    "F5": {"name": "Rice", "type": "veg", "calories": 205, "protein": 4.3, "sugar": 0.1, "meal": ["lunch", "dinner"]},
-    "F11": {"name": "Boiled Egg", "type": "non-veg", "calories": 78, "protein": 6.3, "sugar": 0.6, "meal": ["breakfast", "snack"]}
+    "R1": {"name": "Basic Idli", "type": "veg", "calories": 39, "protein": 1.2, "sugar": 0, "meal": ["breakfast"]},
+    "R5": {"name": "Basic Rice", "type": "veg", "calories": 205, "protein": 4.3, "sugar": 0, "meal": ["lunch", "dinner"]},
+    "R8": {"name": "Basic Dal", "type": "veg", "calories": 110, "protein": 4.5, "sugar": 0, "meal": ["lunch"]},
+    "R10": {"name": "Basic Roti", "type": "veg", "calories": 100, "protein": 3, "sugar": 0, "meal": ["dinner"]},
+    "R12": {"name": "Basic Salad", "type": "veg", "calories": 50, "protein": 1, "sugar": 0, "meal": ["dinner"]}
 }
 
 def load_real_data():
     global FOOD_DB
+    print(f"DEBUG: Current working directory: {os.getcwd()}")
+    print(f"DEBUG: Files in root: {os.listdir('.')}")
+    
     # Look for the extracted data in the root or local folder
-    paths = ["docx_extracted.json", "../docx_extracted.json", "openenv_server/docx_extracted.json"]
+    paths = [
+        "docx_extracted.json", 
+        "/app/docx_extracted.json",
+        "openenv_server/docx_extracted.json",
+        "../docx_extracted.json"
+    ]
+    
+    found = False
     for p in paths:
         if os.path.exists(p):
+            print(f"DEBUG: Found dataset at: {p}")
             try:
                 with open(p, "r") as f:
                     data = json.load(f)
-                    # Convert the nested list format to the dictionary format expected by the app
-                    # The JSON format is {"State": [ ["Food", "Calories", ...], ["Item", "100", ...], ... ]}
                     new_db = {}
                     count = 0
                     for state, items in data.items():
                         if not items: continue
-                        header = items[0]
                         for row in items[1:]:
                             if len(row) < 5: continue
                             fid = f"R{count}"
                             try:
-                                # Simple heuristic: if name has fruit/veg/paneer it's veg, else non-veg if has chicken/meat/fish/egg
                                 name = row[0]
                                 f_type = "veg"
                                 if any(x in name.lower() for x in ["chicken", "mutton", "fish", "egg", "meat", "biryani", "kabab"]):
@@ -40,20 +47,24 @@ def load_real_data():
                                 new_db[fid] = {
                                     "name": f"{name} ({state})",
                                     "type": f_type,
-                                    "calories": float(row[1]) if row[1].replace('.','',1).isdigit() else 0,
-                                    "protein": float(row[2]) if row[2].replace('.','',1).isdigit() else 0,
-                                    "sugar": 0, # Not in original dataset
-                                    "meal": ["breakfast", "lunch", "dinner"] # Generic
+                                    "calories": float(row[1]) if str(row[1]).replace('.','',1).isdigit() else 0,
+                                    "protein": float(row[2]) if str(row[2]).replace('.','',1).isdigit() else 0,
+                                    "sugar": 0,
+                                    "meal": ["breakfast", "lunch", "dinner"]
                                 }
                                 count += 1
                             except:
                                 continue
                     if new_db:
-                        FOOD_DB.update(new_db)
-                        print(f"Loaded {len(new_db)} real food items from dataset.")
+                        FOOD_DB = new_db
+                        print(f"SUCCESS: Loaded {len(FOOD_DB)} real food items.")
+                        found = True
                 break
             except Exception as e:
-                print(f"Error loading JSON data: {e}")
+                print(f"ERROR: Loading JSON data from {p} failed: {e}")
+    
+    if not found:
+        print("WARNING: Using minimal fallback food database.")
 
-# Try to load on import
+# Load immediately
 load_real_data()
