@@ -1,6 +1,7 @@
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
+pydantic-settings
 openai
 requests
 python-multipart

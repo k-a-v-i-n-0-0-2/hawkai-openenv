@@ -1,8 +1,8 @@
-from fastapi import FastAPI, Body, HTTPException
-from typing import Dict, List, Any
+from fastapi import FastAPI, Body, HTTPException, Query
+from typing import Dict, List, Any, Optional
 import copy
-from .schema import Action, Observation, Reward, StepResponse
-from .food_db import FOOD_DB
+from openenv_server.schema import Action, Observation, Reward, StepResponse
+from openenv_server.food_db import FOOD_DB
 
 app = FastAPI(title="HawkAI OpenEnv API", description="RL Environment for Diet Generation")
 
@@ -38,14 +38,23 @@ def get_state():
     return current_state
 
 @app.post("/reset", response_model=Observation)
-def reset(task_id: str = "easy"):
+def reset(task_id: Optional[str] = Query("easy"), body: Optional[Dict[str, str]] = Body(None)):
     global current_task_id, current_state
-    if task_id not in TASKS:
-        task_id = "easy"
-    current_task_id = task_id
-    current_state = copy.deepcopy(TASKS[task_id])
+    
+    # Try to get task_id from body first, then query param
+    t_id = "easy"
+    if body and "task_id" in body:
+        t_id = body["task_id"]
+    elif task_id:
+        t_id = task_id
+        
+    if t_id not in TASKS:
+        t_id = "easy"
+        
+    current_task_id = t_id
+    current_state = copy.deepcopy(TASKS[t_id])
     return Observation(
-        result=f"Environment reset to task: {task_id}",
+        result=f"Environment reset to task: {t_id}",
         current_diet=current_state["diet"]
     )
 
