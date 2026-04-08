@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Body, HTTPException, Query
+from fastapi.responses import FileResponse, Response
 from typing import Dict, List, Any, Optional
 import copy
 import os
@@ -9,6 +10,20 @@ from openenv_server.schema import Action, Observation, Reward, StepResponse, Tas
 from openenv_server.food_db import FOOD_DB
 
 app = FastAPI(title="HawkAI OpenEnv API", description="RL Environment for Diet Generation")
+
+# Serve the openenv.yaml for the validator
+@app.get("/openenv.yaml")
+def get_openenv_yaml():
+    yaml_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "openenv.yaml")
+    if not os.path.exists(yaml_path):
+        # Try alternate paths
+        for p in ["/app/openenv.yaml", "openenv.yaml"]:
+            if os.path.exists(p):
+                yaml_path = p
+                break
+    if os.path.exists(yaml_path):
+        return FileResponse(yaml_path, media_type="text/yaml")
+    return Response(content="not found", status_code=404)
 
 # Initial Task States
 TASKS = {
