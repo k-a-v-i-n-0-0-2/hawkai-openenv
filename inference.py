@@ -59,15 +59,15 @@ def run_task(task_id: str):
         
         # Step env
         step_res = requests.post(f"{ENV_URL}/step", json=action).json()
-        print(f"[STEP] Environment observation: {step_res['observation']} | Reward: {step_res['reward']['score']}")
+        print(f"[STEP] Environment observation: {step_res['observation']['result']} | Reward: {step_res['reward']['value']}")
         
         done = step_res["done"]
         messages.append({"role": "assistant", "content": reply})
-        messages.append({"role": "user", "content": f"Observation: {step_res['observation']}"})
+        messages.append({"role": "user", "content": f"Observation: {step_res['observation']['result']}"})
         
         step_count += 1
         
-    print(f"[END] Task {task_id} completed. Final Reward: {step_res['reward']['score']}")
+    print(f"[END] Task {task_id} completed. Final Reward: {step_res['reward']['value']}")
 
 if __name__ == "__main__":
     for t in ["easy", "medium", "hard"]:

@@ -2,36 +2,30 @@ from pydantic import BaseModel, Field
 from typing import Literal, List, Dict, Optional, Any
 
 class Action(BaseModel):
-    action_type: Literal["query_food_db", "add_food", "remove_food", "submit_diet"] = Field(
-        description="The type of action the agent wants to perform."
-    )
-    query: Optional[str] = Field(None, description="Search term for 'query_food_db' action.")
-    meal: Optional[Literal["breakfast", "lunch", "dinner"]] = Field(None, description="Target meal for add/remove.")
-    food_id: Optional[str] = Field(None, description="ID of the food to add/remove.")
-
-class Reward(BaseModel):
-    score: float = Field(0.0, description="The reward score between 0.0 and 1.0.")
-    message: str = Field("", description="Feedback message explaining the score.")
-
-class StepResponse(BaseModel):
-    observation: str = Field(description="The result of the action taken.")
-    reward: Reward
-    done: bool = Field(description="True if the task is complete, False otherwise.")
-    info: Dict[str, Any] = Field(default_factory=dict, description="Additional debug/state info.")
+    action_type: Literal["query_food_db", "add_food", "remove_food", "submit_diet"]
+    query: Optional[str] = None
+    meal: Optional[Literal["breakfast", "lunch", "dinner"]] = None
+    food_id: Optional[str] = None
 
 class Observation(BaseModel):
-    result: str = Field(description="System message or query results.")
-    current_diet: Dict[str, List[Dict[str, Any]]] = Field(description="The current state of the generated diet.")
+    result: str
+    current_diet: Optional[Dict[str, List[str]]] = None
+    error: Optional[str] = None
+
+class Reward(BaseModel):
+    value: float
+    reason: str
+
+class StepResponse(BaseModel):
+    observation: Observation
+    reward: Reward
+    done: bool
+    info: Dict[str, Any]
 
 class TaskDef(BaseModel):
-    id: str
-    difficulty: str
+    task_id: str
+    difficulty: Literal["easy", "medium", "hard"]
     description: str
 
 class InferenceRequest(BaseModel):
-    task_id: str
-
-class InferenceResult(BaseModel):
-    status: str
-    reward: float
-    message: str
+    task_id: Literal["easy", "medium", "hard"] = "easy"
